@@ -1,0 +1,258 @@
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    
+  }
+
+a {
+    text-decoration: none;
+  }
+
+.container{
+    max-width:100%px;
+    width: 100%;
+    padding: 0px 0px;
+    margin:0 auto;
+    }
+  
+    header {
+  height: 65px;
+  width: 100%;
+  background-color: #2a74a8;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    
+}
+    .logo{
+        padding-left: 30px;
+        font-size: 30px;
+        color: seashell;
+    }
+    .header-right {
+        list-style: none;
+        
+        
+        
+        
+        }
+    .header-right a{
+        padding-right: 30px;
+        color: seashell;
+        line-height: 44px;
+        
+    }
+    .header-right a:hover{
+        opacity: 0.8;
+    }
+    
+    
+
+    .top-wrapper{
+        padding: 180px 0px 100px 0px;    
+        background-attachment: fixed;
+        background-image: url(https://shinkenchiku.online/img/2019/07/21A1074.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    
+    
+    
+    .top-wrapper h1{
+        background-size: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        opacity: 0;
+        color:#eee;
+        opacity: 1;
+        text-align: center;
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 65px;
+        line-height: 160px;
+        font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+    }
+
+
+    /* ex-wrapper*/
+    
+    .ex-wrapper{
+        background-color: #eee; 
+        text-align: center;
+        padding-bottom: 80px;
+
+    }
+    .ex-heading{
+        padding: 40px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .ex-heading h2{
+        
+        font-size: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    }
+    .ex-heading p{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2;
+    }
+    .ex-heading span{
+        font-size: 40px;
+        line-height: 2.5;
+    }
+    .ex-heading span#span-red{
+        font-size: 30px;
+        color: rgba(102,0,0, 0.5);
+    }
+    .title{
+        font-size: 30px;
+    }
+    .flex_test-box {
+            
+        padding:  30px;             /* 余白指定 */
+        display: flex;              /* フレックスボックスにする */
+        justify-content: space-between;
+    }
+     
+    .flex_test-item {
+        padding: 10px;
+        margin:  10px;              /* 外側の余白 */
+        border-radius:  5px;        /* 角丸指定 */
+        width: 17%;                 /* 幅指定 */
+    }
+     
+    .flex_test-item img{
+        width: 120px;
+    }
+    
+    .btn {
+        position: relative;
+        display: inline-block;
+        border: solid 5px rgba(102,0,0, 0.9);
+        
+        color:  rgba(102,0,0, 0.5);
+        padding: 10px 20px;
+        border-radius: 4px;
+        
+        transition: color 300ms, background-color 300ms; 
+        }
+    .btn:hover{
+        color:#eee;
+        background-color:rgba(102,0,0, 0.9);
+        
+    }
+    .second-wrapper{
+        padding:20px 50px;
+    }
+    .second-wrapper h2{
+        font-size: 55px;
+        opacity: 0.6;
+        text-align: center;
+    }
+    .user-item span{
+        font-size: 52px;
+        
+    }
+    
+    .second-wrapper p{
+        font-size: 36px;
+    }
+    .user-item p{
+        font-size:24px; 
+        color:#333;
+        padding-bottom: 40px;
+        border-bottom: 5px solid rgba(0,0,0, 0.5);
+    }
+
+    .contact{
+       text-align: center;
+        
+    }
+    
+
+    .contact-left{
+        
+        
+        
+    }
+    .contact-left h3{
+        font-size: 34px;
+       
+       
+    }
+    
+
+    .contact-right p{
+        font-size:18px;
+        font-weight: bolder;
+
+    }
+
+    .contact-right h3{
+        font-size: 24px;
+
+    }
+    .contact input{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact textarea{
+        resize: none;
+        width: 400px;
+        height: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+    }
+    .fa-twitter{
+        color: #00acee;
+        padding-left: 20px;
+    }
+    
+    .contact-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .contact-icon:hover{
+        opacity: 0.4;
+    }
+    .contact-icon p{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    footer{
+        width: 100%;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .twitter-timeline {
+       background-color: rgba(102,0,0, 0.5);
+       margin-left: auto;
+       margin-left: auto;
+    }
